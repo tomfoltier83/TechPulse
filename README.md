@@ -8,15 +8,11 @@ TechPulse est un site web développé en PHP pour gérer les services offerts pa
 
 - Visualisation des services
 - Système de rendez-vous
-- Suivi de projet en temps réel
-- Gestion des comptes clients
 
 ## Prérequis
 
 - PHP 7.4 ou supérieur
-- MySQL 5.6 ou supérieur
 - Serveur web Apache
-- Composer
 
 ## Installation
 
