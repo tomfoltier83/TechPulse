@@ -1,0 +1,34 @@
+<html>
+  <body>
+    <div class="header">
+    </div>
+    <div class="main__title">
+    <h1 style="text-align: center; margin-bottom: 20px;">Nous pouvons : </h1><h1 class="service" style="text-align: center;font-family: 'Roboto Mono', monospace; color: black;"></h1>
+    </div>
+    <div class="main__buttons">
+      <a href="">Acheter</a>
+      <a href="">Vendre</a>
+    </div>
+  </body>
+  
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <script>
+    const txtAnim = document.querySelector('.service');
+    new Typewriter(txtAnim, {
+        loop: true,
+        deleteSpeed: 20
+    })
+    .changeDelay(20)
+    .pauseFor(300)
+    .typeString('Créer un site web <span style="color:#32AEFF">à partir de zéro</span>.')
+    .pauseFor(2500)
+    .deleteChars(36)
+    .typeString('Modifier un site web <span style="color:#32AEFF">déjà existant</span>.')
+    .pauseFor(2500)
+    .deleteChars(36)
+    .typeString('Ajouter un <span style="color:#32AEFF">élément</span>, une <span style="color:#32AEFF">animation</span>, un <span style="color:#32AEFF">effet</span> à votre site web.')
+    .pauseFor(4000)
+    .deleteChars(69)
+    .start();
+  </script>
+</html>

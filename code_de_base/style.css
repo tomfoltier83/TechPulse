@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.vague {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background: white;
+    overflow: hidden;
+}
+.vague .wave {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url(D:\Documents\Bureau\code_de_base\img\vague.png);
+    background-size: 1000px 100px;
+}
+.vague .wave.wave1
+{
+    animation: animate 10s linear infinite;
+    z-index: 1000;
+    opacity: 1;
+    animation-delay: 0s;
+    top: 0;
+}
+
+@keyframes animate {
+    0%
+    {
+        background-position-x: 0px;
+    }
+    100%
+    {
+        background-position-x: 1000px;
+    }
+}
+body {
+    margin: 0px;
+}
+.brosse{
+    padding-bottom: 45px;
+    background-color: #c4b19f;
+    margin-bottom: 0px;
+    padding-top: 60px;
+}
+.brosse .babybutton {
+    display: block;
+    margin: auto;
+    text-align: center;
+    height: 55px;
+    width: 20%;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 20px;
+    background: linear-gradient(145deg, #d2bdaa, #b09f8f);
+    box-shadow:  8px 8px 22px #a59586,
+         -8px -8px 22px #e3cdb8;
+    margin-top: 25px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.babybutton h4 {
+    color: white;
+    font-size: 5vh;
+}
